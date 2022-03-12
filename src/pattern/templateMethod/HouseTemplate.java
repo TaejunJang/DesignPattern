@@ -2,7 +2,8 @@ package pattern.templateMethod;
 
 public abstract class HouseTemplate {
 
-	public void buildHouse() {
+	//자식 클래스에서 오버라이드 방지위를 위해 final 추가
+	public final void buildHouse() {
 		this.buildHouseLayout();
 		this.buildWindow();
 		this.buildFloor();
