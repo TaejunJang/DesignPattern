@@ -2,7 +2,7 @@ package pattern.singleton;
 
 public class SingletonType3 {
 
-	//정적 멤버 필드에 애초에 객체 생성해버리기
+	
 	private static SingletonType3 instance;
 	
 	//외부에서 객체 생성 불가
