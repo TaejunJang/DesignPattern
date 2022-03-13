@@ -12,12 +12,6 @@ public class Main {
 		System.out.println(singletoneObj);
 		System.out.println(singletoneObj2);
 		
-		//singletoneObj 객체에서 클래스 필드 수정 
-		singletoneObj.singleToneCnt = 2;
-		
-		//singletoneObj2 에서 singleToneCnt 클래스 필드 확인
-		System.out.println("singleToneCnt 확인:"+singletoneObj2.singleToneCnt);
-		
 	}
 
 }
