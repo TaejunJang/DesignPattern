@@ -16,6 +16,7 @@ public class SingletonType4 {
 	}
 	
 	public static SingletonType4 getInstance() {
+		//클래스가 로드될때 초기화된 정적 멤버 객체 리턴
 		return InnerInstanceClazz.singletonInstance;
 	}
 	
