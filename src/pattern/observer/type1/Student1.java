@@ -1,4 +1,4 @@
-package pattern.observer;
+package pattern.observer.type1;
 
 public class Student1 extends Observer {
 
